@@ -1,0 +1,8 @@
+entryPoint: analyze_sales_report
+runtime: python39
+serviceAccountEmail: my-service-account@sales-accelerator-425301.iam.gserviceaccount.com
+timeout: 60s
+availableMemoryMb: 256
+environmentVariables:
+  BUCKET_NAME: bucket-sales-data
+  TABLE_ID: sales-accelerator-425301.sales_ds.sales_table
